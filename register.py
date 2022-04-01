@@ -1,4 +1,4 @@
-from test_case.fixture import *
+from test_case_qa_gitea.fixture import *
 import pytest
 import time
 import requests
