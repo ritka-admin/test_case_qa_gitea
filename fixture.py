@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions
 
 # add path to driver !!!
 client = docker.from_env()
-driver = webdriver.Firefox(executable_path='/home/ritka-admin/PycharmProjects/pythonProject/geckodriver')
+driver = webdriver.Firefox(executable_path='/path/to/Firefox/driver')
 action = ActionChains(driver=driver)
 
 # variables for names and credentials
